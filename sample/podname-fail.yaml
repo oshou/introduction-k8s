@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sample_podname_fail
+spec:
+  containers:
+    - name: nginx-controller-alpine
+      image: nginx:alpine
